@@ -5,10 +5,7 @@ import './about.css'; // Import the CSS file
 const About = ({ imageSrc, text }) => {
   return (
     <Box className="text-with-image-container">
-      <Box className="text">
-        <Typography variant="body1">{text}</Typography>
-      </Box>
-      <section className="image-with-details">
+      <section className="image-with-details" id="about">
         <div id='parent' className="image-with-details__container reverse-false" >
         <div id='about-text' class="image-with-details__details">
             <div class="image-with-details__details-container">
